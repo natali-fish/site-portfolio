@@ -1,0 +1,105 @@
+/*контейнер 1110 с запасом лучше взять 1140*/
+
+@media (max-width:1140px) {
+    .card {
+        width: calc(50% - 15px);
+    }
+    .footer {
+        padding-top: 40px;
+   padding-bottom: 60px;
+    }
+    .footer__row {
+        
+        flex-direction: column-reverse; /* колонка в обратном порядке*/
+        align-items: center;
+        text-align: center;
+      }
+      .footer__copyright, .footer__icons, .footer__contacts {
+        margin-bottom: 50px;
+      }
+      .footer__copyright {
+        margin-bottom: 0;
+      }
+}
+
+
+
+
+
+@media (max-width:760px) {
+    .header-title {
+        font-size: 32px;
+    }
+    .header-subtitle {
+        font-size: 14px;
+    }
+    .portfolio {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+    h2 {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    .card {
+         width: 100%;
+         max-width: 530px;
+    }
+    .card:nth-last-child(2) {
+        margin-bottom: 30px;
+    }
+    .portfolio__cards_wrapper{
+        
+         justify-content:center;
+      }
+
+      .card-link {
+        padding: 15px;
+      }
+      .card-img {
+        margin-bottom: 10px;
+     }
+     .card-title {
+        margin-bottom: 10px;
+        font-size: 17px; 
+      } 
+      .card p {
+        font-size: 14px;
+    }
+    .footer__copyright_name {
+       
+        font-size: 18px;
+        margin-bottom: 5px;
+      }
+      .footer__copyright p {
+        font-size: 14px;
+      }
+      .footer__icons p {
+        font-size: 14px;
+      }
+      .footer__contacts p {
+        font-size: 14px;
+        margin: 0;
+        margin-top: 15px;
+      }
+
+      .project {
+        padding: 40px 0 60px;
+
+      }
+      .project__header {
+        font-size: 28px;
+        margin-bottom: 30px;
+      }
+      .project__img {
+        margin-bottom: 20px;
+      }
+      .project__description {
+        margin-bottom: 50px;
+      }
+      .project__btn_back {
+        padding: 10px 10px;
+        width: 100%;
+        max-width: 320px;
+      }
+}
